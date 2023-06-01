@@ -12,6 +12,11 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px; }
 
+h2 design {
+  color: white;
+  border-radius: 10px;
+  text-align: center; }
+
 .vista_previa h3 {
   background-color: pink;
   font-size: 20px;
@@ -80,6 +85,22 @@ h1 {
   background-color: white;
   margin-top: 10px;
   border-radius: 10px; }
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .galeria img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 10px;
+    transition: opacity 0.3s ease; }
+    .galeria img:hover {
+      transform: scale(1.1);
+      opacity: 0.7;
+      z-index: 1; }
 
 .imagenes {
   width: 400px;
@@ -169,6 +190,6 @@ footer {
   font-size: 14px;
   color: black; }
 
-.qr {
-  width: 200px;
-  height: 200px; }
+.linkig {
+  width: 60px;
+  height: 60px; }
