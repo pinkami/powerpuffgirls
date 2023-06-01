@@ -92,7 +92,7 @@ h2 design {
   justify-content: center; }
   .galeria img {
     width: 200px;
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
     object-fit: cover;
     margin: 10px;
