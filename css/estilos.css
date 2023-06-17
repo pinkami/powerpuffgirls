@@ -5,11 +5,11 @@
   font-family: Arial, Helvetica, sans-serif; }
 
 h1 {
-  background-color: pink;
+  background-color: #ffc2c2;
   color: white;
   text-align: center;
   border-radius: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lemon', cursive;
   margin-bottom: 20px; }
 
 h2 design {
@@ -18,40 +18,24 @@ h2 design {
   text-align: center; }
 
 .vista_previa h3 {
-  background-color: pink;
+  background-color: #ffc2c2;
   font-size: 20px;
   color: white; }
 
-.header_nav {
-  width: 90%;
-  height: 70px;
-  background-color: pink;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: auto;
-  margin-bottom: 10px; }
-  .header_nav img {
-    width: 90px;
-    padding: 10px;
-    border-radius: 10px; }
+.bg-custom {
+  background-color: #ffc2c2;
+  margin-bottom: 20px;
+  margin-top: 20px; }
 
-.header_menu {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  padding: 10px; }
+.logonav {
+  width: 80px;
+  height: 70px; }
 
-.header_link {
-  color: white;
-  text-decoration: none;
-  padding: 0.7rem; }
+.zoom-option {
+  transition: transform 0.3s; }
 
-.header_link:hover {
-  background-color: white;
-  color: pink;
-  border-radius: 20px; }
+.zoom-option:hover {
+  transform: scale(1.2); }
 
 .vista_previa {
   background-color: pink;
@@ -63,7 +47,10 @@ h2 design {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
-  gap: 5px; }
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .hijo {
   background-color: pink; }

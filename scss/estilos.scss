@@ -1,5 +1,6 @@
 $colorburbuja: rgb(178, 232, 251);
 $colorbellota: rgb(176, 255, 176);
+$colorbombon: rgb(255, 194, 194);
 * {
     margin: auto;
     padding: 0;
@@ -8,11 +9,11 @@ $colorbellota: rgb(176, 255, 176);
   }
   
   h1 {
-    background-color: pink;
+    background-color: $colorbombon;
     color: white;
     text-align: center;
     border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lemon', cursive;
     margin-bottom: 20px;
   }
 
@@ -23,50 +24,30 @@ $colorbellota: rgb(176, 255, 176);
   }
   
   .vista_previa h3{
-    background-color: pink;
+    background-color: $colorbombon;
     font-size: 20px;
     color: white;
   }
   
+  .bg-custom {
+    background-color: $colorbombon;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
   
-  .header_nav {
-    width: 90%;
+  .logonav {
+    width: 80px;
     height: 70px;
-    background-color: pink;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    margin-bottom: 10px;
-  
-    img {
-      width: 90px;
-      padding: 10px;
-      border-radius: 10px;
-    }
+  }
+
+  .zoom-option {
+    transition: transform 0.3s;
   }
   
-  .header_menu {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-  
+  .zoom-option:hover {
+    transform: scale(1.2);
   }
-  
-  .header_link {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 0.7rem;
-  }
-  
-  .header_link:hover {
-    background-color: rgb(255, 255, 255);
-    color: pink;
-    border-radius: 20px;
-  }
-  
+
   .vista_previa {
     background-color: pink;
     border-radius: 10px;
@@ -78,6 +59,9 @@ $colorbellota: rgb(176, 255, 176);
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .hijo {

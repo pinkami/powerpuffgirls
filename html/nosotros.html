@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Powerpuff girls MakeUp | Sobre nosotros</title>
+	<title> Powerpuff girls MakeUp</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Locales dedicados a la venta de productos para el cuidado personal y estético. También contamos con esteticistas especializadas en los locales y envíos nacionales. ♥">
+    <meta name="keywords" content="maquillaje, hash lifting, nailart, local de cosméticos, maybelline ny, centro de estética">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="icon" href="../images/favicon.ico">
-    <meta name="descrption" content="Conoce nuestro emprendimiento de maquillaje, cuidado personal y estético ubicado en Tigre y Shopping Unicenter.">
-    <meta name="keywords" content="local de maquillaje, local de cosméticos, emprendimiento estético, cuidado personal">
-    <meta charset="UTF-8">
 </head>
 <body>
     <header>
         <h1 class="logo">Powerpuff Girls</h1>
-        <nav class="header_nav">
-            <div class="header_logo"> <img src="https://www.megaidea.net/wp-content/uploads/2018/06/poderosas-21-1024x633.png" alt="logo"></div>
-			<ul class="header_menu">
-				<li class="header_link"><a class="header_link" href="../index.html">Inicio</a></li>
-				<li class="header_link"><a class="header_link" href="nosotros.html">Nosotros</a></li>
-				<li class="header_link"><a class="header_link" href="productos.html">Productos</a></li>
-				<li class="header_link"><a class="header_link" href="contacto.html">Contacto</a></li>
-                <li class="header_link"><a class="header_link" href="newin.html">NEW IN!</a></li>
-			</ul>
-		</nav>
+        <nav class="navbar navbar-expand-lg bg-custom">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../images/logonav.png" class="logonav"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos!
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="productos.html">Make Up</a></li>
+                      <li><a class="dropdown-item" href="#">Hash lifting & Nails</a></li>
+                      <li><a class="dropdown-item" href="newin.html">NEW IN!</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 	</header>
     <main>
 <section>
@@ -32,9 +58,49 @@
         <div class="sobrenosotros3">También contamos con personal esteticista a tu disposición! Si necesitas Nail Art y Lifting de pestañas, para contrataciones de evento o mantenimiento personalizado, ponete en contacto con nosotras por Instagram!</div>
         <img src="https://t4.ftcdn.net/jpg/02/25/35/53/360_F_225355311_XV8zi1WBDnNOhnNT6A9Gp5VgWzUagPX3.jpg" class="imgnosotros" alt="imagen tipo logo">
     </article>
+    <section>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Realizan envíos a todo el país?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Si!💕</strong> Para ello es necesario que te pongas en contacto con nosotras para coordinar tu pedido.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Qué medios de pago aceptan?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">Aceptamos todos los medios de pago, efectivo, crédito y débito.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  En caso de algún fallo, ¿Qué puedo hacer?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Cualquier inconveniente que pueda surgir relacionado con el paquete, el envío o la atención recibida. Nos comprometemos a resolver cualquier problema de manera inmediata y asumir la responsabilidad ante cualquier cuestión que pueda surgir.
+                    Sin embargo, en casos de alergias o problemas con el producto, la responsabilidad recae en el comprador. Nuestros cosméticos son 100% originales de Maybelline, y cada producto proporciona información detallada sobre su composición. Es responsabilidad del cliente leer y comprender dicha información antes de utilizar el producto.
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
     <article class="mapa"><h2 class="mapa">Visita el local!</h2><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13165.084322762776!2d-58.5722447!3d-34.4198688!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcaf85fc57e31b%3A0xdcc1ea16cdfc1418!2sPuerto%20de%20Frutos!5e0!3m2!1ses-419!2sar!4v1682037319220!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </article>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </main>
 <footer> <p>© 2023 POWERPUFF GIRLS MakeUp <br>Puedes encontrarnos en Instagram</p>
     <img src="../images/QR.png" class="linkig" alt="CódigoQR">

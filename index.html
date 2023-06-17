@@ -2,62 +2,81 @@
 <html>
 <head>
 	<title> Powerpuff girls MakeUp</title>
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="icon" href="images/favicon.ico">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Locales dedicados a la venta de productos para el cuidado personal y estético. También contamos con esteticistas especializadas en los locales y envíos nacionales. ♥">
     <meta name="keywords" content="maquillaje, hash lifting, nailart, local de cosméticos, maybelline ny, centro de estética">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
 	<header>
-        <h1 class="logo">Powerpuff Girls</h1>
-		<nav class="header_nav">
-            <div class="header_logo"> <img src="https://www.megaidea.net/wp-content/uploads/2018/06/poderosas-21-1024x633.png" alt="logo"></div>
-			<ul class="header_menu">
-				<li class="header_link"><a class="header_link" href="index.html">Inicio</a></li>
-				<li class="header_link"><a class="header_link" href="./html/nosotros.html">Nosotros</a></li>
-				<li class="header_link"><a class="header_link" href="./html/productos.html">Productos</a></li>
-				<li class="header_link"><a class="header_link" href="./html/contacto.html">Contacto</a></li>
-                <li class="header_link"><a class="header_link" href="./html/newin.html">NEW IN!</a></li>
-			</ul>
-		</nav>
+    <h1 class="logo">Powerpuff Girls</h1>
+      <nav class="navbar navbar-expand-lg bg-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logonav.png" class="logonav"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item zoom-option">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item zoom-option">
+                    <a class="nav-link" href="html/nosotros.html">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item zoom-option">
+                    <a class="nav-link" href="html/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown zoom-option">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos!
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item zoom-option" href="html/productos.html">Make Up</a></li>
+                      <li><a class="dropdown-item zoom-option" href="#">Hash lifting & Nails</a></li>
+                      <li><a class="dropdown-item zoom-option" href="html/newin.html">NEW IN!</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 	</header>
     <main class="vista_previa">
-        <div class="hijo">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4XJ7ZiwWdd1x1mA8OoCn2l56fHGyBdvcubdUQBljCBTu3-7KvuyEsDKxVimwIxghesBiB6U3d6ApG8z_j5DdP-p9608mIPNGxmKPO3H_PVIT4cH1FfaHlwh9-Z99CPDhBRvGkOZGM3UNhcXCW-oMUVdy8TUSVa2Bbl3wuLxFK34xwtMpo35pf4qy8/s2695/Manicure-Monday-Daisy-Nail-Art.jpg" class="imagenesreview"
-            alt="nailart">
-            <h3>Nail Art</h3>
-        </div>
-        <div class="hijo">
-            <img src=https://makeupanddreams.es/wp-content/uploads/2022/01/local6-300x225.jpeg" alt="localrosa" class="imagenesreview">
-            <h3>Visita el local ♥</h3>
-        </div>
-        <div class="hijo">
-            <img src="https://media.glamour.mx/photos/61904e1adc5382f9acfb374e/master/w_1600%2Cc_limit/260881.jpg" alt="lifting" class="imagenesreview">
-            <h3>Nuestro Hash Lifting</h3>
-        </div>
-        <div class="hijo">
-            <img src="https://i.pinimg.com/750x/fd/ab/92/fdab9223187ae5c706b78def4602eb75.jpg" alt="skincare products" class="imagenesreview">
-        <h3>Productos Skincare</h3>
-        </div>
-        <div class="hijo">
-            <img src="https://i.pinimg.com/736x/3c/af/17/3caf17d5ee72210748a1f41badc13074.jpg" alt="productos haircare" class="imagenesreview">
-            <h3>Productos para el cabello</h3>
-        </div>
-        <div class="hijo">
-            <img src="https://www.byrdie.com/thmb/GL4AE1gZxEH8DRCzKXtBZnu572A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/maybellinebrandreview-76a28bca527b490c84b0214814440735.jpg" alt="makeup" class="imagenesreview">
-            <h3>Maquillaje Maybelline</h3>
-        </div>
-<section>
-</section>
+      <div class="hijo">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4XJ7ZiwWdd1x1mA8OoCn2l56fHGyBdvcubdUQBljCBTu3-7KvuyEsDKxVimwIxghesBiB6U3d6ApG8z_j5DdP-p9608mIPNGxmKPO3H_PVIT4cH1FfaHlwh9-Z99CPDhBRvGkOZGM3UNhcXCW-oMUVdy8TUSVa2Bbl3wuLxFK34xwtMpo35pf4qy8/s2695/Manicure-Monday-Daisy-Nail-Art.jpg" class="imagenesreview"
+        alt="nailart">
+        <h3>Nail Art</h3>
+    </div>
+    <div class="hijo">
+        <img src=https://makeupanddreams.es/wp-content/uploads/2022/01/local6-300x225.jpeg" alt="localrosa" class="imagenesreview">
+        <h3>Visita el local ♥</h3>
+    </div>
+    <div class="hijo">
+        <img src="https://media.glamour.mx/photos/61904e1adc5382f9acfb374e/master/w_1600%2Cc_limit/260881.jpg" alt="lifting" class="imagenesreview">
+        <h3>Nuestro Hash Lifting</h3>
+    </div>
+    <div class="hijo">
+        <img src="https://i.pinimg.com/750x/fd/ab/92/fdab9223187ae5c706b78def4602eb75.jpg" alt="skincare products" class="imagenesreview">
+    <h3>Productos Skincare</h3>
+    </div>
+    <div class="hijo">
+        <img src="https://i.pinimg.com/736x/3c/af/17/3caf17d5ee72210748a1f41badc13074.jpg" alt="productos haircare" class="imagenesreview">
+        <h3>Productos para el cabello</h3>
+    </div>
+    <div class="hijo">
+        <img src="https://www.byrdie.com/thmb/GL4AE1gZxEH8DRCzKXtBZnu572A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/maybellinebrandreview-76a28bca527b490c84b0214814440735.jpg" alt="makeup" class="imagenesreview">
+        <h3>Maquillaje Maybelline</h3>
+    </div> 
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </main>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-</script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-AOS.init();
-</script>
 <footer> <p>© 2023 POWERPUFF GIRLS MakeUp <br>Puedes encontrarnos en Instagram</p>
 <img src="images/QR.png" class="linkig" alt="CódigoQR">
 <a href="https://www.instagram.com/" target="_blank">
